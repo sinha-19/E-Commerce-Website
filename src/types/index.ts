@@ -9,13 +9,11 @@ export interface Product {
   reviews: number;
   inStock: boolean;
 }
-
 export interface CartItem {
   id: number;
   product: Product;
   quantity: number;
 }
-
 export interface CartContextType {
   cart: CartItem[];
   addToCart: (product: Product, quantity: number) => void;

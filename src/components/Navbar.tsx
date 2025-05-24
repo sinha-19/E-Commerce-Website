@@ -11,7 +11,6 @@ const Navbar: React.FC = () => {
 
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle search logic here
     setIsSearchOpen(false);
   };
 

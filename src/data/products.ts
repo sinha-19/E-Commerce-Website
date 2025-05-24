@@ -134,15 +134,12 @@ export const products: Product[] = [
     inStock: true
   }
 ];
-
 export const getProductById = (id: number): Product | undefined => {
   return products.find(product => product.id === id);
 };
-
 export const getProductsByCategory = (category: string): Product[] => {
   return products.filter(product => product.category === category);
 };
-
 export const getCategories = (): string[] => {
   return [...new Set(products.map(product => product.category))];
 };

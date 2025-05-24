@@ -1,12 +1,10 @@
 import React from 'react';
 import { Plus, Minus } from 'lucide-react';
-
 interface QuantitySelectorProps {
   quantity: number;
   onChange: (quantity: number) => void;
   maxQuantity?: number;
 }
-
 const QuantitySelector: React.FC<QuantitySelectorProps> = ({ 
   quantity, 
   onChange, 
@@ -17,13 +15,11 @@ const QuantitySelector: React.FC<QuantitySelectorProps> = ({
       onChange(quantity - 1);
     }
   };
-
   const increaseQuantity = () => {
     if (!maxQuantity || quantity < maxQuantity) {
       onChange(quantity + 1);
     }
   };
-
   return (
     <div className="flex items-center border border-gray-300 rounded-md overflow-hidden">
       <button
@@ -49,8 +45,7 @@ const QuantitySelector: React.FC<QuantitySelectorProps> = ({
             ? 'text-gray-400 cursor-not-allowed' 
             : 'text-gray-700 hover:bg-gray-100'
         }`}
-        aria-label="Increase quantity"
-      >
+        aria-label="Increase quantity">
         <Plus size={16} />
       </button>
     </div>

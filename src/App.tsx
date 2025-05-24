@@ -8,7 +8,6 @@ import ProductPage from './pages/ProductPage';
 import CartPage from './pages/CartPage';
 import CategoriesPage from './pages/CategoriesPage';
 import DealsPage from './pages/DealsPage';
-
 function App() {
   return (
     <CartProvider>
@@ -31,5 +30,4 @@ function App() {
     </CartProvider>
   );
 }
-
 export default App;

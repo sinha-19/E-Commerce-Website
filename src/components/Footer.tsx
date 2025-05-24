@@ -13,10 +13,10 @@ const Footer: React.FC = () => {
   
   return (
     <footer className="bg-gray-900 text-gray-300">
-      {/* Main Footer */}
+
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* About */}
+
           <div>
             <h3 className="text-lg font-bold text-white mb-4">Saket</h3>
             <p className="text-gray-400 mb-4">
@@ -37,8 +37,7 @@ const Footer: React.FC = () => {
               </a>
             </div>
           </div>
-          
-          {/* Shop */}
+
           <div>
             <h3 className="text-lg font-bold text-white mb-4">Shop</h3>
             <ul className="space-y-2">
@@ -48,8 +47,7 @@ const Footer: React.FC = () => {
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Gift Cards</a></li>
             </ul>
           </div>
-          
-          {/* Help */}
+
           <div>
             <h3 className="text-lg font-bold text-white mb-4">Help</h3>
             <ul className="space-y-2">
@@ -59,8 +57,7 @@ const Footer: React.FC = () => {
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Shipping Information</a></li>
             </ul>
           </div>
-          
-          {/* Contact */}
+
           <div>
             <h3 className="text-lg font-bold text-white mb-4">Contact</h3>
             <ul className="space-y-2">
@@ -72,8 +69,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
-      
-      {/* Payment & Security */}
+
       <div className="border-t border-gray-800">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
@@ -88,8 +84,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
-      
-      {/* Copyright */}
+
       <div className="bg-gray-950 py-4">
         <div className="container mx-auto px-4 text-center text-sm">
           <p>© {currentYear} Saket. All rights reserved.</p>
