@@ -99,4 +99,4 @@ Feel free to reach out for questions, suggestions, or contributions!
 
 ---
 
-**🔗 [Live Website](http://e-commerce-sks.netlify.app)**
+*🔗 http://e-commerce-sks.netlify.app
