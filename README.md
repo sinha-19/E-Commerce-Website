@@ -1,6 +1,10 @@
 # E-Commerce Website
 
-A modern, scalable e-commerce web application built primarily with TypeScript. This project aims to provide a robust foundation for online retail, supporting essential features like product browsing, shopping cart, and user authentication.
+A modern, scalable e-commerce web application built primarily with TypeScript. This project provides a robust foundation for online retail, supporting essential features such as product browsing, shopping cart management, and user authentication.
+
+**✨ [Live Demo](http://e-commerce-sks.netlify.app) ✨**
+
+---
 
 ## Table of Contents
 
@@ -9,23 +13,28 @@ A modern, scalable e-commerce web application built primarily with TypeScript. T
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
+
+---
 
 ## Features
 
-- Product catalog with search and filter capabilities
-- Shopping cart management
-- User authentication and authorization
-- Order placement and history tracking
-- Responsive design for mobile and desktop
+- 🛍️ Product catalog with search and filter capabilities
+- 🛒 Shopping cart management
+- 🔐 User authentication and authorization
+- 📦 Order placement and history tracking
+- 📱 Responsive design for mobile and desktop devices
 - (Add more features as implemented)
+
+---
 
 ## Tech Stack
 
 - **TypeScript** (primary language)
 - HTML, JavaScript, CSS
 - (Add frameworks/libraries used, e.g., React, Node.js, Express, MongoDB, etc.)
+
+---
 
 ## Getting Started
 
@@ -52,19 +61,23 @@ npm run start
 yarn start
 ```
 
-_Configuration for environment variables, database setup, or additional steps should be documented here as your project requires._
+> _Configuration for environment variables, database setup, or additional steps should be documented here as your project requires._
+
+---
 
 ## Project Structure
 
 ```
 /E-Commerce-Website
-  ├─ src/
-  ├─ public/
-  ├─ package.json
-  ├─ tsconfig.json
-  └─ ...
+  ├─ src/           # Source code for frontend and backend
+  ├─ public/        # Static assets (images, favicon, etc.)
+  ├─ package.json   # Project dependencies and scripts
+  ├─ tsconfig.json  # TypeScript configuration
+  └─ ...            # Additional configuration and documentation files
 ```
-_Describe the main directories and their purposes._
+_Describe the main directories and their purposes as your project evolves._
+
+---
 
 ## Contributing
 
@@ -76,13 +89,14 @@ Contributions are welcome! Please open issues or pull requests for any changes o
 4. Push to the branch (`git push origin feature/FeatureName`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).  
-_Update this section if you choose a different license._
+---
 
 ## Contact
 
 Maintainer: [sinha-19](https://github.com/sinha-19)
 
 Feel free to reach out for questions, suggestions, or contributions!
+
+---
+
+**🔗 [Live Website](http://e-commerce-sks.netlify.app)**
