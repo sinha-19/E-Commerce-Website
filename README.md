@@ -327,7 +327,7 @@ This project is ready for many types of enhancement, such as:
 ## Contact and Credits
 
 **Maintainer:**  
-[Saket Sinha](https://github.com/sinha-19)
+[Saket Kumar Sinha](https://github.com/sinha-19)
 
 For questions, feedback, or collaboration inquiries, open an [issue](https://github.com/sinha-19/E-Commerce-Website/issues) or reach out on GitHub.
 
