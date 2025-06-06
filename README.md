@@ -1,5 +1,38 @@
 # E-Commerce Website
 
+---
+
+## 🛠️ Workflow Diagram
+
+```mermaid
+flowchart TD
+    A[User Arrives at Home Page]
+    A --> B[Browse Product Catalog]
+    B --> C{Filter/Search?}
+    C -- Yes --> D[View Filtered Products]
+    D --> E[Click Product]
+    C -- No --> E[Click Product]
+    E --> F[Product Detail Page]
+    F --> G[Add to Cart]
+    G --> H[Product Added to Cart]
+    H --> I{View Cart?}
+    I -- Yes --> J[View Cart Page]
+    J --> K[Update/Remove Items]
+    K --> J
+    J --> L{Proceed to Checkout?}
+    L -- Yes --> M[Order Summary & Checkout]
+    M --> N[Confirm Order]
+    N --> O[Show Confirmation]
+    O --> P([End])
+    J --> Q{Continue Shopping?}
+    Q -- Yes --> B
+    F --> B
+    I -- No --> B
+    L -- No --> J
+```
+
+---
+
 Welcome to the E-Commerce Website project! This repository demonstrates a production-grade, scalable, and modern e-commerce platform built with **TypeScript** and **React**. It is designed to be clear, extensible, and ready for both real-world deployment and learning purposes. This detailed README provides everything you need to understand the project structure, workflow, and its possibilities for growth.
 
 ---
@@ -13,6 +46,7 @@ Welcome to the E-Commerce Website project! This repository demonstrates a produc
 - [Technology Stack](#technology-stack)
 - [Folder Structure Explained](#folder-structure-explained)
 - [Detailed Application Flow](#detailed-application-flow)
+- [Workflow Diagram](#workflow-diagram)
 - [How to Run Locally](#how-to-run-locally)
 - [How to Build for Production](#how-to-build-for-production)
 - [Development Guidelines](#development-guidelines)
